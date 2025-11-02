@@ -3,9 +3,9 @@ module "s3" {
 }
 
 module "instance" {
-  source = "./modules/instance" 
+  source = "./modules/instance"
 }
 
-module "zikotech" {
+module "ziko-vpc.AWS" {
   source = "./modules/vpc"
 }
