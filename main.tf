@@ -6,6 +6,6 @@ module "instance" {
   source = "./modules/instance"
 }
 
-module "ziko-vpc.AWS" {
+module "jj-vpc" {
   source = "./modules/vpc"
 }
