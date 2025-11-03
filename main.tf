@@ -6,7 +6,7 @@ module "instance" {
   source = "./modules/instance"
 }
 
-module "subnet-vpc" {
+module "zikosubnet-vpc" {
   source = "./modules/vpc"
-  
+
 }
