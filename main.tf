@@ -6,6 +6,7 @@ module "instance" {
   source = "./modules/instance"
 }
 
-module "jj-vpc" {
+module "subnet-vpc" {
   source = "./modules/vpc"
+  
 }
