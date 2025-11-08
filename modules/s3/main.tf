@@ -6,3 +6,4 @@ resource "aws_s3_bucket" "mypracticebucket2310" {
     Environment = "Dev"
   }
 }
+
